@@ -1,0 +1,22 @@
+.circlesSVG {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.header__logo {
+  margin-top: 46px;
+}
+
+.header__illustrations {
+  margin-top: 80px;
+}

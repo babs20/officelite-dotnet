@@ -41,3 +41,7 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
+
+#Project Files
+officelite-coming-soon-site
+officelite-coming-soon-site-figma
