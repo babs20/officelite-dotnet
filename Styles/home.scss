@@ -1,3 +1,5 @@
+@import "global/index";
+
 .circlesSVG {
   position: absolute;
   width: 100%;
@@ -19,4 +21,48 @@
 
 .header__illustrations {
   margin-top: 80px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem auto 0 auto;
+  padding: 0 24px;
+}
+
+.information__heading {
+  font-family: $olFontFamily;
+  font-weight: $olFontWeightBold;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: $olColorGrayDark;
+  text-align: center;
+  margin: 0;
+}
+
+.information__paragraph {
+  @include olBodyTwo;
+  line-height: 26px;
+  text-align: center;
+  color: $olColorGrayMedium;
+  margin: 24px 0 0 0;
+}
+
+.information__button {
+  background-color: $olColorBlue;
+  border-radius: 28px;
+  padding: 14px 41px;
+  font-family: $olFontFamily;
+  font-weight: $olFontWeightBold;
+  line-height: 28px;
+  color: #fff;
+  margin-top: 24px;
+  width: 171px;
+  box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
+  transition: background-color 300ms;
+
+  &:hover {
+    background-color: $olColorMutedBlue;
+  }
 }
